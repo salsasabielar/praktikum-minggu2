@@ -74,6 +74,25 @@ class MyApp extends StatelessWidget {
                 ),
               ],
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Container(
+                  child: Image.network(
+                      'https://ligacdn.com/storage/images/news/2021/02/13/koeman-heran-pique-tuduh-wasit-telah-untungkan-madrid.jpeg'),
+                  width: 200.0,
+                  height: 200.0,
+                ),
+                Container(
+                  child: Text(
+                      'Pique Bilang Wasit Untungkan Madrid, Koeman Tepuk Jidat',
+                      style: TextStyle(fontSize: 14)),
+                  alignment: Alignment.center,
+                  width: 200.0,
+                  height: 200.0,
+                ),
+              ],
+            ),
           ],
         ),
       ),
